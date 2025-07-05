@@ -70,4 +70,3 @@ To evaluate real-world performance, simple mock trading simulation was ran.
   - Incorporate transaction costs in mock trading for more realistic simulation
 
 ##
-This project was completed for **STAT 543: Computational Statistics** at the University of Calgary.
