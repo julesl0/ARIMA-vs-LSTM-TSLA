@@ -46,25 +46,25 @@ After removing non-stationarity through differencing and detrending, a rolling f
   - **Model Selection**:
     - using auto_arima() from pdarima package
      
-## Evaluation Metrics:
+## Evaluation Metrics
 - RMSE, MAE, Directional Accuracy, Relative RMSE, NAIVE RMSE, Mock Trading Profit
 
 ## Mock Trading Simulation
 To evaluate real-world performance, simple mock trading simulation was ran. 
 
-### Setup:
+### Setup
 - **Initial cash**: $10,000
 - **Buy 1 share** of TSLA if model preducts that price will go up the next day
 - **Sell 1 share** of TSLA if model predicts the price will go down
 
   * This approach assumes a basic and simple strategy with no transaction fees. 
 
-## Insights:
+## Insights
 - **LSTM Model 1** had the lowest RMSE, yet made least profit (-$8.54)
 - **LSTM Model 2** generated the highest profit (+$567.73), despite a higher RMSE 
 - **ARIMA** produced moderate profit (+$72.18), despite having weaker statistical performance
 
-## Moving Forward:
+## Moving Forward
   - Include additional macronomic indicators (e.g., GDP, CPI, inflation rates)
   - Explore more advanced architectures
   - Incorporate transaction costs in mock trading for more realistic simulation
