@@ -1,4 +1,4 @@
-Authors: Julie Seo(julesl0), Sangmyeong Lee(Sam230230)
+# Authors: Julie Seo(julesl0), Sangmyeong Lee(Sam230230)
 
 ## TESLA Stock Price Forecasting using ARIMA and LSTM ##
 
