@@ -1,3 +1,5 @@
+Authors: Julie Seo(julesl0), Sangmyeong Lee(Sam230230)
+
 ## TESLA Stock Price Forecasting using ARIMA and LSTM ##
 
 Two time series forecasting models; **ARIMA** (a traditional statistical model) and **LSTM** (a deep learning model) were used to predict Tesla (TSLA) stock prices. 
